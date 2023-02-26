@@ -1,5 +1,4 @@
 import CurrencyConverter from "./components/CurrencyConverter";
-import NewsFeed from "./components/NewsFeed";
 
 const App = () => {
   return (
@@ -8,7 +7,6 @@ const App = () => {
         <h1>Crypto Dashboard</h1>
       </header>
       <section className="app-wrapper">
-        <NewsFeed />
         <CurrencyConverter />
       </section>
     </div>
